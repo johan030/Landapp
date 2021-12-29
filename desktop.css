@@ -1,0 +1,106 @@
+@media screen and (min-width: 740px) and (max-width: 1940px) {
+
+
+    /*------ HEADER ------*/
+
+    .header{
+        height: 70vh;
+    }
+    .logo-box{
+        width: 90%;
+        margin: auto;
+        
+    }
+    .main-nav{
+        display:initial;
+        width: 50%;
+      
+    }
+    .main-nav--items{
+        display: flex;
+        justify-content: space-evenly;
+         
+         
+    }
+    .main-nav-item {
+        color: #fff;
+        font-size: 1.6rem;
+        font-weight: 700;
+    }
+
+    .btn-outline{
+        text-transform: uppercase;
+        padding: 1rem 2.5rem 1rem 2.5rem;
+        color: #fff;
+        border: 2px solid #fff;
+        font-size: 1.5rem;
+        font-weight: bold;
+        border-radius: .5rem;
+        display:initial;
+    }
+ 
+    .mobile-nav-icon{
+        display: none;
+    }
+
+    .heading-primary{
+        font-size: 7rem;
+    }
+
+    .text-box{
+       
+        top: 70%;
+        bottom: 50%;
+        width: 100%;;
+        padding-top: 1rem;
+        padding-bottom: 15rem;
+        
+    }
+    .heading-primary-sub{
+        font-size: 2.3rem;
+        
+    }
+
+    /*------ INPUT SECTION ------ */
+    .row{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+
+    .contact-form{
+        margin-top: 9rem;
+    }
+    .contact-form{
+        padding: 1rem;
+    }
+    .contact-connect-area{
+        padding: 5rem;
+    }
+
+    .contact-connect{
+        margin-bottom: 5rem;
+    }
+
+    .btn-submit{
+        width: 30%;
+        float: right;
+        text-align: center;
+    }
+
+
+    /* ------ FOOTER ------ */
+
+    .footer-nav{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .footer-nav ul{
+        display: inline-block;
+        width: 50%;
+    }
+
+   
+}

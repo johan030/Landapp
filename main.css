@@ -1,0 +1,69 @@
+/*background : #F49B6C */
+/* btn background hover : #044160;
+btn-color: #000 */
+
+/* GENERAL SETUP & REUSABLES COMPONENTS */
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    
+}
+li{
+    list-style-type: none;
+}
+/*TITLES*/
+
+h1{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 3.5rem;
+}
+/*BUTTONS*/
+
+.btn-black:link,
+.btn-black:visited{
+    background-color: #000000;
+    padding: 1.2rem 2.5rem 1.2rem 2.5rem;
+    border-radius: 0.7rem;
+    color: #FFFFFF;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+.btn-black:hover{
+    background-color: #044160; 
+}
+
+.btn-submit{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 700;
+    background-color: #F49B6C;
+    padding: 2rem 0 2rem 0;
+    border-radius: .5rem;
+    display:inline-block;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+
